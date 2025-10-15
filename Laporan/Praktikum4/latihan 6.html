@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Latihan 6</title>
+    <style type="text/css">
+        .floatnone {float:none;}
+        .floatleft {float:left; width:200px; margin:5px;}
+        .floatright {float:right; width:200px; margin:5px;}
+
+        .border {
+            width:650px; 
+            min-height:200px; 
+            border:2px solid #C33B09;
+            padding:10px;
+            margin-bottom: 15px;
+        }
+
+        /* styling gambar umum */
+        img {
+            border-radius:5px;
+            box-shadow:0 0 6px #666;
+            height: auto;
+        }
+
+        /* khusus float none */
+        .floatnone img {
+            width: 200px;      
+            display: block;    
+
+        }
+
+        .border p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="floatnone border">
+        <h3>Float None CSS</h3>
+        <img src="sepeda.jpg.jpg"/>
+        <p>Konten yang ingin di isi. (gambar float none, kecil dan rata tengah)</p>
+    </div>
+
+    <div class="floatleft border">
+        <h3>Float Left CSS</h3>
+        <img src="vario.jpg.jpg" class="floatleft"/>
+        <p>Konten di samping gambar float left.</p>
+    </div>
+
+    <div class="floatright border">
+        <h3>Float Right CSS</h3>
+        <img src="vespa.jpg.jpg" class="floatright"/>
+        <p>Konten di samping gambar float right.</p>
+    </div>
+</body>
+</html>

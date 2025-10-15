@@ -1,0 +1,19 @@
+body {
+    background: url(Anggrek.jpg.jpeg) no-repeat;
+    background-size: cover;
+    font-family: Georgia;
+}
+h1 {
+    background-color: rgba(17, 149, 94, 0.403);
+    text-align: center;
+    color: white;
+}
+h2 {
+    color: rgba(0, 255, 251, 0.458);
+    font-size: 25px;
+}
+p {
+   margin-left: 50px;
+   color: rgb(241, 243, 248);
+   font-size: 24px; 
+}
