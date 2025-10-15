@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Struktur perulangan For Berdasarkan Input</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var jumlah = prompt("Masukkan jumlah pengulangan yang Anda inginkan (misal: 10):", 0)
+            var totalPengulangan = parseInt(jumlah);
+            if (isNaN(totalPengulangan) || totalPengulangan <= 0) {
+                document.write("<h2>Input tidak valid. Silakan masukkan angka positif.</h2>");
+            } else {
+                document.write("<h2>Hasil Pengulangan (" + totalPengulangan + " kali):</h2>");
+                for (var i = 1; i <= totalPengulangan; i++) {
+                    document.write(i + ". Sampai jumpa kembali<br/>");
+                }
+            }
+        </script>
+    </body>
+</html>
